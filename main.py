@@ -84,15 +84,11 @@ while return_to_main:
                             if info_selection == 'hometown':
                                 print("{0} is from {1}".format(data[student_selection - 1].get("name"), data[student_selection - 1].get("hometown")))
                                 print()
-                                return_to_main = input("Return to main menu? (y/n)")
-                                if return_to_main == 'y':
-                                    break
+                                break
                             elif info_selection == 'favorite food':
                                 print("{0}'s favorite food is {1}".format(data[student_selection - 1].get("name"), data[student_selection - 1].get("favorite_food")))
                                 print()
-                                return_to_main = input("Return to main menu? (y/n)")
-                                if return_to_main == 'y':
-                                    break
+                                break
                             else:
                                 print("Invalid input!")
                                 print()
@@ -115,15 +111,11 @@ while return_to_main:
                         if info_selection == 'hometown':
                             print("{0} is from {1}".format(student_search, data[student_index].get("hometown")))
                             print()
-                            return_to_main = input("Return to main menu? (y/n)")
-                            if return_to_main == 'y':
-                                break
+                            break
                         elif info_selection == 'favorite food':
                             print("{0}'s favorite food is {1}".format(student_search, data[student_index].get("favorite_food")))
                             print()
-                            return_to_main = input("Return to main menu? (y/n)")
-                            if return_to_main == 'y':
-                                break
+                            break
                         else:
                             print("Invalid input!")
                             print()
